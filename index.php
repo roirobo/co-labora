@@ -83,7 +83,7 @@ if(($send!="1") || (isset($err_text)))
   $mail_date=gmdate("D, d M Y H:i:s")." GMT";
   $send=0;
   $mail_subject = 'Suscripcion co-labora.net';
-  $mail_text = $from_name . ' se ha suscrito al sitio de co-labora.net. Con las siguientes solicitudes:\n' . $information . '\n' . $rent;
+  $mail_text = $from_name . ' se ha suscrito al sitio de co-labora.net. Con las siguientes solicitudes:\r\n' . $information . '\r\n' . $rent;
   if(@mail($mail_to,$mail_subject,$mail_text,$header))
   {
     echo "<p class='success message'><b>Usted se ha suscrito con exito.</b></p>";
