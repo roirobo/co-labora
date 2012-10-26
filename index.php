@@ -91,6 +91,7 @@ if(($send!="1") || (isset($err_text)))
 }
 ?>
 </div>
+Nos encuentras tambien en <a href="http://twitter.com/co_labora">Twitter</a> y <a href="http://facebook.com/colaboramanagua">Facebook</a>.
 
 <h2>Se ofrecerá:</h2>
 
@@ -122,11 +123,6 @@ Lunes a viernes, 8:30am a 6:00pm y sábado,
 
 <h2>Lugar:</h2>
 En este momento nos estamos formando y estamos buscando una casa adecuada y bonita en un lugar centrico de Managua para alquilar. Si vos nos puedes recomendar una, por favor escribanos a <span class="pseudo-link">contacto (arroba) co-labora.net</span>
-
-
-<h2><a id="social"></a>Redes sociales:</h2>
-
-Nos encuentras tambien en <a href="http://twitter.com/co_labora">Twitter</a> y <a href="http://facebook.com/colaboramanagua">Facebook</a>.
 
 <h2><a id="ejemplos"></a>Ejemplos:</h2>
 
