@@ -138,6 +138,6 @@ Lugares como este existen en otros lugares. Si te gusta la idea y quieres ver al
 <h2><a id="attributions"></a>Atribuciones:</h2>
 <ul>
 <li>Fotos de fondo publicadas bajo licencias CreativeCommons de <a href="http://jorgeyau.com/">Jorge Yau</a>, <a href="http://morinoko.com/">Harold Maduro</a> y <a href="http://madrideducacion.es/"><strong>madrid</strong>educacion.es</a>.</li>
-<li>Textos adaptados de <a href="http://cascostation.com">Casco Station</a>.</li>
+<li>Textos inspirados en <a href="http://cascostation.com">Casco Station</a>.</li>
 </ul>
 
