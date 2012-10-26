@@ -8,7 +8,7 @@ lang: es
 <h3>Oficina de co-working en Managua</h3>
 </div>
 
-Somos un grupo de diseñadores, programadores web, comunicadores y otras profesiones modernos afines a la creatividad y tecnología. Estamos acostumbrados a trabajar independientemente y libres. Queremos abrir un espacio de <a href="#coworking">co-working</a> en Managua, Nicaragua y estamos buscando personas igualmente interesadas en este modelo para poder empezar con el proyecto, si estas buscando una oficina y te parece lo que proponemos, por favor suscribíte: 
+Somos un grupo de diseñadores, programadores web, comunicadores, artistas, consultores y otras profesiones afines a la creatividad y tecnología. Estamos acostumbrados a trabajar independientemente y libres. Queremos abrir un espacio de <a href="#coworking">co-working</a> en Managua, Nicaragua y estamos buscando personas igualmente interesadas en este modelo para poder empezar con el proyecto, si estas buscando una oficina y te parece lo que proponemos, por favor suscribíte: 
 
 <div class="subscription-form">
 <?php
