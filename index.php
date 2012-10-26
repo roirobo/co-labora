@@ -124,6 +124,9 @@ Lunes a viernes, 8:30am a 6:00pm y sábado,
 En este momento nos estamos formando y estamos buscando una casa adecuada y bonita en un lugar centrico de Managua para alquilar. Si vos nos puedes recomendar una, por favor escribanos a <span class="pseudo-link">contacto (arroba) co-labora.net</span>
 
 
+<h2><a id="social"></a>Redes sociales:</h2>
+
+Nos encuentras tambien en <a href="http://twitter.com/co_labora">Twitter</a> y <a href="http://facebook.com/colaboramanagua">Facebook</a>.
 
 <h2><a id="ejemplos"></a>Ejemplos:</h2>
 
@@ -134,5 +137,11 @@ Lugares como este existen en otros lugares. Si te gusta la idea y quieres ver al
 <li><a href="http://workhub.com.mx">Workhub</a> (Ciuidad de Mexico)</li>
 <li><a href="http://www.atrampolim.com.br">Trampolim</a> (São Paulo, Brazil)</li>
 <li><a href="http://coworkcali.com">Coworking Tequendama</a> (Cali, Colombia)</li>
+</ul>
+
+<h2><a id="attributions"></a>Atribuciones:</h2>
+<ul>
+<li>Fotos de fondo publicadas bajo licencias CreativeCommons de <a href="http://jorgeyau.com/">Jorge Yau</a>, <a href="http://morinoko.com/">Harold Maduro</a> y <a href="http://madrideducacion.es/"><strong>madrid</strong>educacion.es</a>.</li>
+<li>Textos adaptados de <a href="http://cascostation.com">Casco Station</a>.</li>
 </ul>
 
