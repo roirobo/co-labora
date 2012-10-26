@@ -1,3 +1,7 @@
+name: co-labora
+description: Oficina colaborativa (coworking) en Managua, Nicaragua
+url: http://co-labora.net
+
 safe:        false
 auto:        false
 server:      false
