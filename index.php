@@ -18,6 +18,7 @@ $mail_to="contacto@co-labora.net";
 $from_name=$_POST['fromname'];
 $from_mail=$_POST['frommail'];
 $information=$_POST['information'];
+$rent=$_POST['rent'];
 $mail_text=$_POST['mailtext'];
 $send=$_POST['s'];
 
@@ -60,10 +61,11 @@ if(($send!="1") || (isset($err_text)))
   <td nowrap align=right>Correo electronico:</td>
   <td width=100%><input type="text" name="frommail" size=35 maxlength=120 value="<?php echo $from_mail; ?>"></td>
 </tr>
+
 <tr>
   <td></td>
-  <td><input type="radio" name="information" value="deseando recibir informacion">Deseo recibir noticias sobre el proyecto.<br />
-  <input type="radio" name="information" value="interesada/o en alquilar">Estoy interesada/o en alquilar.
+  <td><input type="checkbox" name="information" value="Deseando recibir informacion">Deseo recibir noticias sobre el proyecto.<br />
+  <input type="checkbox" name="rent" value="Interesada/o en alquilar">Estoy interesada/o en alquilar.
   <input type="hidden" value="1" name="s">
 </tr>
 <tr>
@@ -81,7 +83,7 @@ if(($send!="1") || (isset($err_text)))
   $mail_date=gmdate("D, d M Y H:i:s")." GMT";
   $send=0;
   $mail_subject = 'Suscripcion co-labora.net';
-  $mail_text = $from_name . ' se ha suscrito al sitio de co-labora.net y esta ' . $information;
+  $mail_text = $from_name . ' se ha suscrito al sitio de co-labora.net. Con las siguientes solicitudes:\n' . $information . '\n' . $rent;
   if(@mail($mail_to,$mail_subject,$mail_text,$header))
   {
     echo "<p class='success message'><b>Usted se ha suscrito con exito.</b></p>";
