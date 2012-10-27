@@ -124,7 +124,7 @@ Lunes a viernes, 8:30am a 6:00pm y sábado,
 9:00am a 4:00pm. Aunque personas que alquilan el mes completo podrán quedarse más tiempo.
 
 <h2>Lugar:</h2>
-En este momento nos estamos formando y estamos buscando una casa adecuada y bonita en un lugar centrico de Managua para alquilar. Si vos nos puedes recomendar una, por favor escribanos a <span class="pseudo-link">contacto (arroba) co-labora.net</span>
+En este momento nos estamos formando y estamos buscando una casa adecuada y bonita en un lugar centrico de Managua para alquilar. Si vos nos podés recomendar una, por favor escribanos a <span class="pseudo-link">contacto (arroba) co-labora.net</span>
 
 <h2><a id="ejemplos"></a>Ejemplos:</h2>
 
