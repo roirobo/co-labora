@@ -8,7 +8,7 @@ lang: es
 <h3>Oficina de co-working en Managua</h3>
 </div>
 
-Somos un grupo de diseñadores, programadores web, comunicadores, artistas, consultores y otras profesiones afines a la creatividad y tecnología. Estamos acostumbrados a trabajar independientemente y libres. Queremos abrir un espacio de <a href="#coworking">co-working</a> en Managua, Nicaragua y estamos buscando personas igualmente interesadas en este modelo para poder empezar con el proyecto, si estas buscando una oficina y te parece lo que proponemos, por favor suscribíte: 
+Somos un grupo de diseñadores, programadores web, comunicadores, artistas, consultores y otras profesiones afines a la creatividad y tecnología. Estamos acostumbrados a trabajar independientemente y libres. Queremos abrir un espacio de <a href="#coworking">co-working</a> en Managua, Nicaragua y estamos buscando personas igualmente interesadas en este modelo para poder empezar con el proyecto, si estas buscando una oficina y te parece lo que proponemos, por favor suscríbite: 
 
 <div class="subscription-form">
 <?php
@@ -25,10 +25,10 @@ $send=$_POST['s'];
 if(trim($from_name)=="") $err_text.="Por favor diganos su nombre.<br>";
 if(trim($information)=="") $err_text.="Por favor selecione si está dispuesta/o a alquilar o simplemente quiere recibir noticias.<br>";
 if(trim($from_mail)=="")
-  $err_text.="Por favor diganos la direccion de su correo electronico.<br>";
+  $err_text.="Por favor diganos la dirección de su correo electrónico.<br>";
 else
   if(!ereg("^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,6})$",$from_mail))
-    $err_text.="Por favor comprueba la validez de su direccion de correo electronico.<br>";
+    $err_text.="Por favor comprueba la validez de su dirección de correo electrónico.<br>";
 
 $from_name=str_replace(chr(34),"''",$from_name);
 $mail_subject=str_replace(chr(34),"''",$mail_subject);
@@ -64,7 +64,7 @@ if(($send!="1") || (isset($err_text)))
 
 <tr>
   <td></td>
-  <td><input type="checkbox" name="information" value="Deseando recibir informacion">Deseo recibir noticias sobre el proyecto.<br />
+  <td><input type="checkbox" name="information" value="Deseando recibir información">Deseo recibir noticias sobre el proyecto.<br />
   <input type="checkbox" name="rent" value="Interesada/o en alquilar">Estoy interesada/o en alquilar.
   <input type="hidden" value="1" name="s">
 </tr>
@@ -128,7 +128,7 @@ En este momento nos estamos formando y estamos buscando una casa adecuada y boni
 
 <h2><a id="ejemplos"></a>Ejemplos:</h2>
 
-Lugares como este existen en otros lugares. Si te gusta la idea y quieres ver alugnos ejemplos, puedes visitar los siguientes sitios:
+Lugares como este existen en otras partes del mundo. Si te gusta la idea y quieres ver algunos ejemplos, puedes visitar los siguientes sitios:
 <ul>
 <li><a href="http://cascostation.com">Casco Station</a> (Ciudad de Panama)</li>
 <li><a href="http://madrid.the-hub.net">The Hub Madrid</a> (Madrid, España)</li>
