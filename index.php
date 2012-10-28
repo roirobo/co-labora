@@ -54,11 +54,11 @@ if(($send!="1") || (isset($err_text)))
 <form action="index.php" method="post">
 <table border=0 cellspacing=2 cellpadding=0 width=100%>
 <tr>
-  <td nowrap align=right>Name:</td>
+  <td nowrap align=right>Nombre:</td>
   <td width=100%><input type="text" name="fromname" size=40 maxlength=120 value="<?php echo $from_name; ?>"></td>
 </tr>
 <tr>
-  <td nowrap align=right>Correo electronico:</td>
+  <td nowrap align=right>Correo electrónico:</td>
   <td width=100%><input type="text" name="frommail" size=35 maxlength=120 value="<?php echo $from_mail; ?>"></td>
 </tr>
 
@@ -93,21 +93,21 @@ if(($send!="1") || (isset($err_text)))
 }
 ?>
 </div>
-Nos encuentras tambien en <a href="http://twitter.com/co_labora">Twitter</a> y <a href="http://facebook.com/colaboramanagua">Facebook</a>.
+Nos encuentras también en <a href="http://twitter.com/co_labora">Twitter</a> y <a href="http://facebook.com/colaboramanagua">Facebook</a>.
 
 <h2>Se ofrecerá:</h2>
 
 <ul><li>Un lugar para trabajar (con su escritorio + silla + UPS) en un espacio moderno, creativo y rodeado de otros profesionales.</li>
 <li>Internet de alta velocidad</li>
 <li>Una cafetería y lugar de receso donde ofrecemos café, té, agua, sodas y snacks gratis.</li>
-<li>Pizarras acrilicas "whiteboard" para lluvias de ideas ("brainstorm") y visualizaciones.</li>
-<li>Proyector ("datashow).</li>
+<li>Pizarras acrílicas "whiteboard" para lluvias de ideas ("brainstorm") y visualizaciones.</li>
+<li>Proyector ("datashow").</li>
 <li>Sala de reuniones.</li>
 </ul>
 
 <h2><a id="coworking"></a>¿Que es Co-Working?</h2>
 
-Los espacios de Coworking ofrecen a los profesionales independientes un lugar para trabajar, con las facilidades de una oficina regular (escritorios, sillas de trabajo, internet de alta velocidad, salón de reuniones) y algunos otros extras (comedor, bebidas, café, salas de relajación, sofás cómodos, video juegos, etc.), con el beneficio adicional de poder formar parte de una comunidad de profesionales afines - ya sea independientes, emprendedores o innovadores - que comparten conocimientos, recursos y, hasta en algunas ocasiones, proyectos. Más allá que simplemente trabajar con otros y tener una oficina per se, se trata de formar parte de un <a href="#ejemplos">movimiento global</a> que desea cambiar la manera convencional de trabajar.  En vez de ir todos los días a una oficina fría donde cada persona está tratando de hacer su trabajo para recibir su cheque quincenal o de quedarse trabajando solitariamente desde la casa, estás participando en una actividad donde, mientras manejas tu proyecto o negocio personal, puedes además colaborar, discutir y aportar, no solo en los proyectos que están desarrollando los miembros de la comunidad, sino en su vida cotidiana. Piensa más en palabras como: sinergia, colaboración, camadería e ideas compartidas. Es realmente una agrupación de profesionales independientes en un área de trabajo dentro de una comunidad, donde se incentiva la colaboración e intercambio de ideas entre los miembros.
+Los espacios de Coworking ofrecen a los profesionales independientes un lugar para trabajar, con las facilidades de una oficina regular (escritorios, sillas de trabajo, internet de alta velocidad, salón de reuniones) y algunos otros extras (comedor, bebidas, café, salas de relajación, sofás cómodos, video juegos, etc.), con el beneficio adicional de poder formar parte de una comunidad de profesionales afines - ya sea independientes, emprendedores o innovadores - que comparten conocimientos, recursos y, hasta en algunas ocasiones, proyectos. Más allá que simplemente trabajar con otros y tener una oficina per se, se trata de formar parte de un <a href="#ejemplos">movimiento global</a> que desea cambiar la manera convencional de trabajar.  En vez de ir todos los días a una oficina fría donde cada persona está tratando de hacer su trabajo para recibir su cheque quincenal o de quedarse trabajando solitariamente desde la casa, estás participando en una actividad donde, mientras manejas tu proyecto o negocio personal, puedes además colaborar, discutir y aportar, no solo en los proyectos que están desarrollando los miembros de la comunidad, sino en su vida cotidiana. Piensa más en palabras como: sinergia, colaboración, camaradería e ideas compartidas. Es realmente una agrupación de profesionales independientes en un área de trabajo dentro de una comunidad, donde se incentiva la colaboración e intercambio de ideas entre los miembros.
 
 <h2>Tarifas:</h2>
 
@@ -124,16 +124,16 @@ Lunes a viernes, 8:30am a 6:00pm y sábado,
 9:00am a 4:00pm. Aunque personas que alquilan el mes completo podrán quedarse más tiempo.
 
 <h2>Lugar:</h2>
-En este momento nos estamos formando y estamos buscando una casa adecuada y bonita en un lugar centrico de Managua para alquilar. Si vos nos podés recomendar una, por favor escribanos a <span class="pseudo-link">contacto (arroba) co-labora.net</span>
+En este momento nos estamos formando y estamos buscando una casa adecuada y bonita en un lugar céntrico de Managua para alquilar. Si vos nos podés recomendar una, por favor escribanos a <span class="pseudo-link">contacto (arroba) co-labora.net</span>
 
 <h2><a id="ejemplos"></a>Ejemplos:</h2>
 
 Lugares como este existen en otras partes del mundo. Si te gusta la idea y quieres ver algunos ejemplos, puedes visitar los siguientes sitios:
 <ul>
-<li><a href="http://cascostation.com">Casco Station</a> (Ciudad de Panama)</li>
+<li><a href="http://cascostation.com">Casco Station</a> (Ciudad de Panamá)</li>
 <li><a href="http://madrid.the-hub.net">The Hub Madrid</a> (Madrid, España)</li>
-<li><a href="http://workhub.com.mx">Workhub</a> (Ciuidad de Mexico)</li>
-<li><a href="http://www.atrampolim.com.br">Trampolim</a> (São Paulo, Brazil)</li>
+<li><a href="http://workhub.com.mx">Workhub</a> (Ciuidad de México)</li>
+<li><a href="http://www.atrampolim.com.br">Trampolim</a> (São Paulo, Brasil)</li>
 <li><a href="http://coworkcali.com">Coworking Tequendama</a> (Cali, Colombia)</li>
 </ul>
 
