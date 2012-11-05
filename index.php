@@ -132,7 +132,7 @@ Lugares como este existen en otras partes del mundo. Si te gusta la idea y quier
 <ul>
 <li><a href="http://cascostation.com">Casco Station</a> (Ciudad de Panamá)</li>
 <li><a href="http://madrid.the-hub.net">The Hub Madrid</a> (Madrid, España)</li>
-<li><a href="http://workhub.com.mx">Workhub</a> (Ciuidad de México)</li>
+<li><a href="http://workhub.com.mx">Workhub</a> (Ciudad de México)</li>
 <li><a href="http://www.atrampolim.com.br">Trampolim</a> (São Paulo, Brasil)</li>
 <li><a href="http://coworkcali.com">Coworking Tequendama</a> (Cali, Colombia)</li>
 </ul>
