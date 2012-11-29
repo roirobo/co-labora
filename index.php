@@ -8,7 +8,7 @@ lang: es
 <h3>Oficina de co-working en Managua</h3>
 </div>
 
-Somos un grupo de diseñadores, programadores web, comunicadores, artistas, consultores y otras profesiones afines a la creatividad y tecnología. Estamos acostumbrados a trabajar independientemente y libres. Queremos abrir un espacio de <a href="#coworking">co-working</a> en Managua, Nicaragua y estamos buscando personas igualmente interesadas en este modelo para poder empezar con el proyecto, si estas buscando una oficina y te parece lo que proponemos, por favor suscríbite: 
+Somos un grupo de diseñadores, programadores web, comunicadores, artistas, consultores y otras profesiones afines a la creatividad y tecnología. Estamos acostumbrados a trabajar independientemente y libres. Queremos abrir un espacio de <a href="#coworking">co-working</a> en Managua, Nicaragua y estamos buscando personas igualmente interesadas en este modelo para poder empezar con el proyecto, si estas buscando una oficina y te parece lo que proponemos, por favor suscríbite:
 
 <div class="subscription-form">
 <?php
@@ -99,7 +99,7 @@ Nos encuentras también en <a href="http://twitter.com/co_labora">Twitter</a> y 
 
 <ul><li>Un lugar para trabajar (con su escritorio + silla + UPS) en un espacio moderno, creativo y rodeado de otros profesionales.</li>
 <li>Internet de alta velocidad</li>
-<li>Una cafetería y lugar de receso donde ofrecemos café, té, agua, sodas y snacks gratis.</li>
+<li>Una cafetería y lugar de receso donde ofrecemos café y agua gratis.</li>
 <li>Pizarras acrílicas "whiteboard" para lluvias de ideas ("brainstorm") y visualizaciones.</li>
 <li>Proyector ("datashow").</li>
 <li>Sala de reuniones.</li>
@@ -124,7 +124,10 @@ Lunes a viernes, 8:30am a 6:00pm y sábado,
 9:00am a 4:00pm. Aunque personas que alquilan el mes completo podrán quedarse más tiempo.
 
 <h2>Lugar:</h2>
-En este momento nos estamos formando y estamos buscando una casa adecuada y bonita en un lugar céntrico de Managua para alquilar. Si vos nos podés recomendar una, por favor escribanos a <span class="pseudo-link">contacto (arroba) co-labora.net</span>
+<strong>Centro Cultural Quilombo</strong><br />
+Del busto San Martí, 30 metros hacia arriba<br />
+Managua, Nicaragua
+
 
 <h2><a id="ejemplos"></a>Ejemplos:</h2>
 
