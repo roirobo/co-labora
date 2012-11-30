@@ -124,7 +124,7 @@ Lunes a viernes, 8:30am a 6:00pm y sábado,
 9:00am a 4:00pm. Aunque personas que alquilan el mes completo podrán quedarse más tiempo.
 
 <h2>Lugar:</h2>
-<strong>Centro Cultural Quilombo</strong><br />
+<a href="http://www.culturaquilombo.org/">Centro Cultural Quilombo</a><br />
 Del busto San Martí, 30 metros hacia arriba<br />
 Managua, Nicaragua
 
