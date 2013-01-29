@@ -7,47 +7,50 @@ lang: es
 <h1>co-labora</h1>
 <h3>Oficina de co-working en Managua</h3>
 </div>
-
-Somos un grupo de diseñadores, programadores web, comunicadores, artistas, consultores y otras profesiones afines a la creatividad y tecnología. Estamos acostumbrados a trabajar independientemente y libres. El primero de Enero 2013 vamos a abrir un espacio de <a href="#coworking">co-working</a> en Managua, Nicaragua. Si estás interesada/o puedes suscribirte aquí para recibir más información:
+Somos un grupo de freelancers, emprendedores y innovadores y de esta manera estamos acostumbrados a trabajar independientemente y libres. Hemos abierto un espacio de <a href="#coworking">co-working</a> en Managua con las conidiciones de una oficina en el corazón de la capital. Estamos buscando personas igualmente interesadas en este modelo. Una oficina libre, colaborativa, compartiendo recursos y inspiradora para diseñadores, programadores web, comunicadores, artistas, consultores, otras profesiones afines a la creatividad y tecnología y cualquier persona más que se siente inspirada de la propuesta. Si estás interesada/o puedes suscribirte aquí para recibir más información:
 
 <div class="subscription-form">
 <?php
 // RECEPTOR ADDRESS
 $mail_to="contacto@co-labora.net";
 
-$from_name=$_POST['fromname'];
-$from_mail=$_POST['frommail'];
-$information=$_POST['information'];
-$rent=$_POST['rent'];
-$mail_text=$_POST['mailtext'];
-$send=$_POST['s'];
 
-if(trim($from_name)=="") $err_text.="Por favor diganos su nombre.<br>";
-if(trim($information)=="") $err_text.="Por favor selecione si está dispuesta/o a alquilar o simplemente quiere recibir noticias.<br>";
-if(trim($from_mail)=="")
-  $err_text.="Por favor diganos la dirección de su correo electrónico.<br>";
-else
-  if(!ereg("^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,6})$",$from_mail))
-    $err_text.="Por favor comprueba la validez de su dirección de correo electrónico.<br>";
-
-$from_name=str_replace(chr(34),"''",$from_name);
-$mail_subject=str_replace(chr(34),"''",$mail_subject);
-$from_name=stripslashes($from_name);
-$from_mail=stripslashes($from_mail);
-$mail_subject=stripslashes($mail_subject);
-$mail_text=stripslashes($mail_text);
-
-if(($send=="1") && (isset($err_text))) {
-  echo "<p class='error message'>";
-  echo "$err_text</p>";
-}
-
-?>
+if(isset($_POST['frommail'])) {
+  $from_mail=$_POST['frommail'];
+  if(isset($_POST['fromname']))
+    $from_name=$_POST['fromname'];
+  if(isset($_POST['information']))
+    $information=$_POST['information'];
+  if(isset($_POST['rent']))
+    $rent=$_POST['rent'];
+  if(isset($_POST['mailtext']))
+    $mail_text=$_POST['mailtext'];
+  if(isset($_POST['s']))
+    $send=$_POST['s'];
 
 
-<?php
+  if(trim($from_name)=="") $err_text.="Por favor diganos su nombre.<br>";
+  if(trim($information)=="") $err_text.="Por favor selecione si está dispuesta/o a alquilar o simplemente quiere recibir noticias.<br>";
+  if(trim($from_mail)=="")
+    $err_text.="Por favor diganos la dirección de su correo electrónico.<br>";
+  else
+    if(!ereg("^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,6})$",$from_mail))
+      $err_text.="Por favor comprueba la validez de su dirección de correo electrónico.<br>";
 
-if(($send!="1") || (isset($err_text)))
+  $from_name=str_replace(chr(34),"''",$from_name);
+  $mail_subject=str_replace(chr(34),"''",$mail_subject);
+  $from_name=stripslashes($from_name);
+  $from_mail=stripslashes($from_mail);
+  $mail_subject=stripslashes($mail_subject);
+  $mail_text=stripslashes($mail_text);
+
+  if(($send=="1") && (isset($err_text))) {
+    echo "<p class='error message'>";
+    echo "$err_text</p>";
+  }
+
+
+if(($send != "1") || (isset($err_text)))
 {
 ?>
 
@@ -91,19 +94,23 @@ if(($send!="1") || (isset($err_text)))
     echo "<p class='error message'><b>Hubo un error en el sistema</b></p>";
   }
 }
+}
 ?>
 </div>
 Nos encuentras también en <a href="http://twitter.com/co_labora">Twitter</a> y <a href="http://facebook.com/colaboramanagua">Facebook</a>.
 
-<h2>Se ofrecerá:</h2>
+<h2>La oferta:</h2>
 
 <ul><li>Un lugar para trabajar (con su escritorio + silla + UPS) en un espacio moderno, creativo y rodeado de otros profesionales.</li>
 <li>Internet de alta velocidad</li>
-<li>Una cafetería y lugar de receso donde ofrecemos café y agua gratis.</li>
-<li>Pizarras acrílicas "whiteboard" para lluvias de ideas ("brainstorm") y visualizaciones.</li>
-<li>Proyector ("datashow").</li>
+<li>Una cafetería y lugar de receso donde ofrecemos café, té, agua, sodas y snacks.*</li>
+<li>Pizarras acrilicas "whiteboard" para lluvias de ideas ("brainstorm") y visualizaciones.</li>
+<li>Proyector ("datashow).*</li>
 <li>Sala de reuniones.</li>
+<li>Seguridad las 24 horas.</li>
 </ul>
+<i>* disponible con limitaciones en este momento. Trabajamos para completar la oferta.</i>
+
 
 <h2><a id="coworking"></a>¿Que es Co-Working?</h2>
 
@@ -112,11 +119,14 @@ Los espacios de Coworking ofrecen a los profesionales independientes un lugar pa
 <h2>Tarifas:</h2>
 
 <ul>
-<li>$ 10 Pase por un día</li>
-<li>$ 30 Un día por semana durante un mes.</li>
-<li>$ 80 Hasta tres veces por semana durante un mes..</li>
-<li>$ 150 Tienes acceso diario a la comunidad de <strong>co-labora</strong> por un mes.</li>
+<li>$ 10 - Pase por un día</li>
+<li>$ 30 - Un día por semana durante un mes.</li>
+<li>$ 80 - Hasta tres veces por semana durante un mes..</li>
+<li>$ 150  - Tienes acceso diario a la comunidad de <strong>co-labora</strong> por un mes.</li>
 </ul>
+
+Tome en cuenta nuestra promoción de inauguración:
+<img src="images/promocion.jpg" />
 
 <h2>Horario:</h2>
 
