@@ -14,20 +14,13 @@ Somos un grupo de freelancers, emprendedores y innovadores y de esta manera esta
 // RECEPTOR ADDRESS
 $mail_to="contacto@co-labora.net";
 
-
-if(isset($_POST['frommail'])) {
+if (isset($_POST['fromname'])) {
+  $from_name=$_POST['fromname'];
   $from_mail=$_POST['frommail'];
-  if(isset($_POST['fromname']))
-    $from_name=$_POST['fromname'];
-  if(isset($_POST['information']))
-    $information=$_POST['information'];
-  if(isset($_POST['rent']))
-    $rent=$_POST['rent'];
-  if(isset($_POST['mailtext']))
-    $mail_text=$_POST['mailtext'];
-  if(isset($_POST['s']))
-    $send=$_POST['s'];
-
+  $information=$_POST['information'];
+  $rent=$_POST['rent'];
+  $mail_text=$_POST['mailtext'];
+  $send=$_POST['s'];
 
   if(trim($from_name)=="") $err_text.="Por favor diganos su nombre.<br>";
   if(trim($information)=="") $err_text.="Por favor selecione si está dispuesta/o a alquilar o simplemente quiere recibir noticias.<br>";
@@ -43,15 +36,19 @@ if(isset($_POST['frommail'])) {
   $from_mail=stripslashes($from_mail);
   $mail_subject=stripslashes($mail_subject);
   $mail_text=stripslashes($mail_text);
+}
+else {
+  $from_name = $from_mail = '';
+  $send = FALSE;
+}
 
-  if(($send=="1") && (isset($err_text))) {
-    echo "<p class='error message'>";
-    echo "$err_text</p>";
-  }
+if(($send=="1") && (isset($err_text))) {
+  echo "<p class='error message'>";
+  echo "$err_text</p>";
+}
 
 
-if(($send != "1") || (isset($err_text)))
-{
+if(($send != "1") || (isset($err_text))) {
 ?>
 
 <form action="index.php" method="post">
@@ -94,14 +91,13 @@ if(($send != "1") || (isset($err_text)))
     echo "<p class='error message'><b>Hubo un error en el sistema</b></p>";
   }
 }
-}
 ?>
 </div>
 Nos encuentras también en <a href="http://twitter.com/co_labora">Twitter</a> y <a href="http://facebook.com/colaboramanagua">Facebook</a>.
 
 <h2>La oferta:</h2>
 
-<ul><li>Un lugar para trabajar (con su escritorio + silla + UPS) en un espacio moderno, creativo y rodeado de otros profesionales.</li>
+<ul><li>Un lugar para trabajar en un espacio moderno, creativo y rodeado de otros profesionales.</li>
 <li>Internet de alta velocidad</li>
 <li>Una cafetería y lugar de receso donde ofrecemos café, té, agua, sodas y snacks.*</li>
 <li>Pizarras acrilicas "whiteboard" para lluvias de ideas ("brainstorm") y visualizaciones.</li>
@@ -125,7 +121,7 @@ Los espacios de Coworking ofrecen a los profesionales independientes un lugar pa
 <li>$ 150  - Tienes acceso diario a la comunidad de <strong>co-labora</strong> por un mes.</li>
 </ul>
 
-Tome en cuenta nuestra promoción de inauguración:
+<p>En este momento le ofrecemos promociones especiales de inauguración:</p>
 <img src="images/promocion.jpg" />
 
 <h2>Horario:</h2>
@@ -134,10 +130,11 @@ Lunes a viernes, 8:30am a 6:00pm y sábado,
 9:00am a 4:00pm. Aunque personas que alquilan el mes completo podrán quedarse más tiempo.
 
 <h2>Lugar:</h2>
-<a href="http://www.culturaquilombo.org/">Centro Cultural Quilombo</a><br />
-Del busto San Martí, 30 metros hacia arriba<br />
-Managua, Nicaragua
+<b>co-labora</b> - La oficina coworking en Managua<br />
+Del Busto José Martí 20mts hacia arriba (este); Al lado de <a href="http://www.culturaquilombo.org/">Cultura Quilombo</a><br />
+Managua, Nicaragua<br /><br />
 
+<iframe width='600' height='250' frameBorder='0' src='http://a.tiles.mapbox.com/v3/leogg.map-oxvrzpe8.html#17/12.139010231843187/-86.26732652778625'></iframe>
 
 <h2><a id="ejemplos"></a>Ejemplos:</h2>
 
