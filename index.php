@@ -154,5 +154,5 @@ Lugares como este existen en otras partes del mundo. Si te gusta la idea y quier
 <li>Textos inspirados en <a href="http://cascostation.com">Casco Station</a>.</li>
 </ul>
 
-<img src="images/co-labora-logo.png" />
+<center><img src="images/co-labora-logo.png" height="25" width="25" /></center>
 
