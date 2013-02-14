@@ -7,7 +7,7 @@ lang: es
 <h1>co-labora</h1>
 <h3>Oficina de co-working en Managua</h3>
 </div>
-Somos un grupo de freelancers, emprendedores y innovadores y de esta manera estamos acostumbrados a trabajar independientemente y libres. Hemos abierto un espacio de <a href="#coworking">co-working</a> en Managua con las conidiciones de una oficina en el corazón de la capital. Estamos buscando personas igualmente interesadas en este modelo. Una oficina libre, colaborativa, compartiendo recursos y inspiradora para diseñadores, programadores web, comunicadores, artistas, consultores, otras profesiones afines a la creatividad y tecnología y cualquier persona más que se siente inspirada de la propuesta. Si estás interesada/o puedes suscribirte aquí para recibir más información:
+Somos un grupo de freelancers, emprendedores e innovadores y de esta manera estamos acostumbrados a trabajar independientemente y libres. Hemos abierto un espacio de <a href="#coworking">co-working</a> en Managua con las conidiciones de una oficina en el corazón de la capital. Estamos buscando personas igualmente interesadas en este modelo. Una oficina libre, colaborativa, compartiendo recursos e inspiradora para diseñadores, programadores web, comunicadores, artistas, consultores, otras profesiones afines a la creatividad y tecnología y cualquier persona más que se siente inspirada de la propuesta. Si estás interesada/o puedes suscribirte aquí para recibir más información:
 
 <div class="subscription-form">
 <?php
