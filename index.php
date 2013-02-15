@@ -121,8 +121,8 @@ Los espacios de Coworking ofrecen a los profesionales independientes un lugar pa
 <li>$ 150  - Tienes acceso diario a la comunidad de <strong>co-labora</strong> por un mes.</li>
 </ul>
 
-<p>En este momento le ofrecemos promociones especiales de inauguración:</p>
-<img src="images/promocion.jpg" />
+<!-- <p>En este momento le ofrecemos promociones especiales de inauguración:</p>
+<img src="images/promocion.jpg" /> -->
 
 <h2>Horario:</h2>
 
